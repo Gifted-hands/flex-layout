@@ -1,0 +1,131 @@
+ *{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ .items{
+     display: flex;
+     background-color: rgb(255, 209, 163);
+     padding: 10px;
+     height: 100vh;
+     justify-content: space-evenly;
+     font-family: arial;
+ }
+ .item1{
+     background-color: brown;
+     width: 23%;
+     height: 80vh;
+     margin-top: 40px;
+     border: 2px solid rosybrown;
+ }
+ .item1 h1{
+     font-size: 25px;
+    padding-left: 2px; 
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    color: white;
+ }
+ .item1 p{
+     color: white;
+    padding-left: 4px; 
+ }
+.item1 button{
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 25%;
+    border: none;
+    background-color: white;
+    background-image: linear-gradient(75deg,  purple, red, rosybrown);
+    color: white;
+}
+
+ .item2{
+     background-color: slateblue;
+     width: 23%;
+     height: 80vh;
+     margin-top: 40px;
+     border: 2px solid powderblue;
+ }
+ .item2 h1{
+    font-size: 25px;
+    padding-left: 2px; 
+    text-align: center;
+    font-weight: bold;
+    color: white;
+ }
+ .item2 p{
+    color: white;
+    padding-left: 4px; 
+ }
+ .item2 button{
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 25%;
+    border: none;
+    background-color: white;
+    background-image: linear-gradient(75deg,  purple, red, powderblue);
+    color: white;
+    font-weight: bolder;
+ }
+
+ .item3{
+     background-color: blueviolet;
+     width: 23%;
+     height: 80vh;
+     margin-top: 40px;
+     border: 2px solid #9f98d2;
+ }
+.item3 h1{
+    font-size: 25px;
+    padding-left: 2px; 
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.item3 p{
+    color: white;
+    padding-left: 4px; 
+}
+.item3 button{
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-left: 25%;
+    border: none;
+    background-color: white; 
+    background-image: linear-gradient(75deg,  purple, red, yellow);
+    color: white;  
+}
+
+ .item4{
+     background-color: peru;
+    width: 23%;
+    height: 80vh;
+    margin-top: 40px;
+    border: 2px solid #c1ab97;
+ }
+ .item4 h1{
+    font-size: 25px;
+    padding-left: 2px; 
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 10px 0; 
+ }
+ .item4 p{
+    color: white;
+    padding-left: 4px;
+ }
+ .item4 button{
+    padding: 8px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-left: 25%;
+    border: none;
+    background-color: white;
+    background-image: linear-gradient(75deg,  purple, red, yellow);
+    color: white;
+ }
